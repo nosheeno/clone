@@ -14,9 +14,8 @@ body{
     justify-content: space-between;
     }    
 #header .header-wrappar .logo img{
-    height: 4rem;
-    width: 4rem;
-    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;   
     margin: 3px 0 0 4px;
 }
 #header .header-wrappar .navbar{
@@ -26,6 +25,7 @@ body{
 #header .header-wrappar .navbar ul{
     display: inline-flex;
     list-style-type: none;
+    padding: 0;
 }
 #header .header-wrappar .navbar ul li a{
     padding: 0.7rem;
@@ -34,7 +34,7 @@ body{
     text-transform: uppercase;
     font-weight: 500;
     font-size: 1rem;
-    line-height: 2;
+    line-height: 3.5;
     transition: .2s all;
 }
 #header .header-wrappar .navbar ul li a:hover{
@@ -126,11 +126,13 @@ body{
   @media all and (max-width: 500px) {
     #header .header-wrappar{
         flex-direction: column;
-        align-items: center
+        align-items: center;
+        
     }
     #header .header-wrappar .navbar ul{
          flex-direction: column;
          align-items: center;
+         margin: 0;
     }
     #news .news-wrapper .news-heading{
         text-align: center;
